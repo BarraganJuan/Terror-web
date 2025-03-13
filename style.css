@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.66);
+}
+header {
+    background-color: black;
+    padding: 2rem 2rem;
+}
+nav, ul, li {
+    float: left;
+    background-color: red;
+    padding: 0.1rem 4.5rem;
+    list-style: none;
+}
+
+.division :hover {
+    box-shadow: 1rem 0 2rem rgb(101, 9, 9);
+    cursor: pointer;
+    background-color: rgb(146, 11, 11);
+    padding: 0.1rem 4.5rem;
+    color: white;
+}
+.conteiner {
+    width: 500px;
+    background-color: rgb(240, 243, 245);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    box-shadow: 0.4rem black;
+}
+.sub {
+    font-family: "Rock Salt", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  text-align: center;
+  font-size: x-large;
+  
+}
+.sub:hover {
+    color:red;
+}
+.mar {
+    margin: 2rem ;
+}
