@@ -8,6 +8,7 @@ header {
     padding: 2rem 2rem;
 }
 ul, li {
+    transition: 0.3s;
     float: left;
     background-color: red;
     padding: 1rem 5rem;
@@ -30,6 +31,7 @@ ul, li {
     border: solid black 5px;
 }
 .sub {
+    transition: 0.3s;
     font-family: "Rock Salt", cursive;
   font-weight: 1000;
   font-style: normal;
@@ -47,6 +49,9 @@ ul, li {
 #C2 {
     margin: 1rem 1.5rem;
 }
-#CEO {
+.CEO {
     margin: 1rem;
+}
+.GD {
+    margin: 2.5rem;
 }
