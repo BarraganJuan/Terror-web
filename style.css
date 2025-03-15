@@ -1,7 +1,7 @@
 body {
     margin: 0;
     border: solid black 5px;
-    background-color: rgba(0, 0, 0, 0.66);
+    background-color: rgb(0, 0, 0);
 }
 header {
     background-color: black;
@@ -46,7 +46,7 @@ ul, li {
 .mar {
     margin: 1rem 6rem;
 }
-#C2 {
+.C2 {
     margin: 1rem 1.5rem;
 }
 .CEO {
@@ -54,4 +54,10 @@ ul, li {
 }
 .GD {
     margin: 2.5rem;
+}
+.JV {
+    margin: 1rem 3.5rem;
+}
+.K {
+    margin: 1rem 5.5rem;
 }
