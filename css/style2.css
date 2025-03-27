@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: darkorange;
+    border: solid black 5px;
+}
+header {
+    font-family: "Rock Salt", cursive;
+    background-color: black;
+    padding: 2rem 2rem;
+    color: white;
+    text-align: center;
+}
+.conteiner {
+    width: 500px;
+    background-color: rgb(240, 243, 245);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    border: solid black 8px;
+}
+.margen {
+    margin: 0 7rem;
+}
+ul, li {
+    transition: 0.3s;
+    float: left;
+    background-color: rgb(255, 0, 0);
+    padding: 1rem 4.3rem;
+    list-style: none;
+
+    border: solid black;
+}
+.division :hover {
+    cursor: pointer;
+    background-color: rgb(146, 11, 11);
+    color: white;
+}

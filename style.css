@@ -11,15 +11,15 @@ ul, li {
     transition: 0.3s;
     float: left;
     background-color: red;
-    padding: 1rem 5rem;
+    padding: 1rem 3.9rem;
     list-style: none;
+
     border: solid black;
 }
 
 .division :hover {
     cursor: pointer;
     background-color: rgb(146, 11, 11);
-    padding: 1rem 5rem;
     color: white;
 }
 .conteiner {
@@ -28,7 +28,7 @@ ul, li {
     padding: 1rem;
     border-radius: 1rem;
     margin: 0 auto;
-    border: solid black 5px;
+    border: solid black 8px;
 }
 .sub {
     transition: 0.3s;
