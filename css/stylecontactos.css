@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+ul, li {  
+    transition: 0.3s;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem 3.9rem;
+    list-style: none;
+    text-align: center;
+    border: solid red;
+    font-family: Rock Salt;
+}
+.division:hover {
+    color: white;
+    background-color: red;
+}
+.container {
+    width: 500px;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    border: solid rgb(250, 0, 0) 8px;
+    color: white;
+}
