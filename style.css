@@ -37,6 +37,7 @@ ul, li {
   font-style: normal;
   text-align: center;
   font-size: x-large;
+  border: none;
   
 }
 .sub:hover {
