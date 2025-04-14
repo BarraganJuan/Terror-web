@@ -35,3 +35,12 @@ ul, li {
     color:rgb(8, 0, 255);
     cursor: pointer;
 }
+.bajo {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.letra {
+    margin: 3rem 0;
+}

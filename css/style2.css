@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: darkorange;
+    background-color: black;
     border: solid black 5px;
 }
 header {
@@ -13,7 +13,7 @@ header {
 }
 .conteiner {
     width: 500px;
-    background-color: rgb(240, 243, 245);
+    background-color: rgba(240, 243, 245, 0.416);
     padding: 1rem;
     border-radius: 1rem;
     margin: 0 auto;
@@ -35,4 +35,11 @@ ul, li {
     cursor: pointer;
     background-color: rgb(146, 11, 11);
     color: white;
+}
+.bajo {
+    background-color: black;
+    color: white;
+    font-family: "Rock Salt", cursive;
+    display: flex;
+    justify-content: space-around;
 }
