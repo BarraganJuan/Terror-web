@@ -43,3 +43,12 @@ ul, li {
     display: flex;
     justify-content: space-around;
 }
+.sub {
+    transition: 0.3s;
+    font-family: "Rock Salt", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  text-align: center;
+  font-size: x-large;
+  border: none;
+}
