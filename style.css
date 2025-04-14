@@ -9,9 +9,10 @@ header {
 }
 ul, li {
     transition: 0.3s;
+    margin: 0;
     float: left;
     background-color: red;
-    padding: 1rem 3.9rem;
+    padding: 1rem 3.97rem;
     list-style: none;
 
     border: solid black;
@@ -24,7 +25,7 @@ ul, li {
 }
 .conteiner {
     width: 500px;
-    background-color: rgb(240, 243, 245);
+    background-color: rgba(240, 243, 245, 0.205);
     padding: 1rem;
     border-radius: 1rem;
     margin: 0 auto;
