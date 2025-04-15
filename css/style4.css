@@ -43,3 +43,6 @@ li {
     border: none;
 
 }
+table, th, tr, td {
+    border: solid black;
+}
