@@ -3,24 +3,24 @@ body {
 }
 ul, li {  
     transition: 0.3s;
-    background-color: rgb(0, 0, 0);
+    background-color: yellow;
     padding: 1rem 3.9rem;
     list-style: none;
     text-align: center;
-    border: solid red;
+    border: solid rgb(0, 0, 0);
     font-family: Rock Salt;
 }
 .division:hover {
     color: white;
-    background-color: red;
+    background-color: rgb(255, 187, 0);
 }
 .container {
     width: 500px;
-    background-color: rgba(0, 0, 0, 0.365);
+    background-color: rgba(0, 0, 0, 0.329);
     padding: 1rem;
     border-radius: 1rem;
     margin: 0 auto;
-    border: solid rgb(250, 0, 0) 8px;
+    border: solid yellow 8px;
     color: white;
 }
 .bajo {
@@ -31,4 +31,4 @@ ul, li {
 }
 .letra {
     margin: 3rem 0;
-}
+}   
