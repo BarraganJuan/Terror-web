@@ -1,44 +1,37 @@
 body {
     margin: 0;
-    background-color: rgb(0, 0, 43);
 }
 
 ul, li {
     transition: 0.3s;
-    margin: 0;
     float: left;
-    background-color: rgb(0, 4, 120);
-    padding: 2rem 3.85rem;
+    background-color: rgb(255, 0, 217);
+    padding: 1rem 6.38rem;
     list-style: none;
+    margin: 0;
     border: solid black;
 }
 .division :hover {
     cursor: pointer;
-    background-color: rgb(0, 57, 215);
+    background-color: rgb(146, 11, 126);
     color: white;
-}
-#sin {
-    margin: 0;
 }
 .conteiner {
     width: 500px;
-    background-color: rgba(240, 243, 245, 0.315);
+    background-color: rgba(240, 243, 245, 0.416);
     padding: 1rem;
     border-radius: 1rem;
     margin: 0 auto;
     border: solid black 8px;
 }
-#glitch {
-    margin: 0 6rem;
-}
 .sub {
     transition: 0.3s;
-    font-family: Rock salt;
-    text-align: center;
-}
-.sub:hover {
-    color:rgb(8, 0, 255);
-    cursor: pointer;
+    font-family: "Rock Salt", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  text-align: center;
+  font-size: x-large;
+  border: none;
 }
 .bajo {
     background-color: black;
