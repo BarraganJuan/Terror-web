@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: black;
+    border: solid black 5px;
+}
+header {
+    font-family: "Rock Salt", cursive;
+    background-color: black;
+    padding: 2rem 2rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.conteiner {
+    width: 500px;
+    background-color: rgba(240, 243, 245, 0.416);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    border: solid black 8px;
+}
+.conteiner img {
+    transition: 0.3s;
+}
+.conteiner img:hover{
+    transform: scale(1.2);
+}
+.margen {
+    margin: 0 7rem;
+}
+/* ul, li {
+    transition: 0.3s;
+    float: left;
+    background-color: rgb(255, 0, 0);
+    padding: 1rem 68.5px;
+    list-style: none;
+
+    border: solid black;
+} */
+
+.division {
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.division li {
+    border: solid black;
+    transition: 0.3s;
+    padding: 10px 20px;
+    height: 100%;
+}
+
+.division li a {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.division :hover {
+    cursor: pointer;
+    background-color: rgb(146, 11, 11);
+    color: white;
+}
+.bajo {
+    background-color: black;
+    color: white;
+    font-family: "Rock Salt", cursive;
+    display: flex;
+    justify-content: space-around;
+}
+.sub {
+    transition: 0.3s;
+    font-family: "Rock Salt", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  text-align: center;
+  font-size: x-large;
+  border: none;
+}
+@media (max-width:770px){
+    ul, li {
+        font-size: 15px;
+    }
+}
+@media (max-width:600px){
+    ul, li {
+        font-size: 10px;
+    }
+}   
