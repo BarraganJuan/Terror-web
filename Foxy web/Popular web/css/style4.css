@@ -7,6 +7,8 @@ header {
 }
 .imagen{
     width: 100%;
+    height: 500px;
+    margin: 0;
 }
 .division {
     background-color: rgb(255, 255, 0);
@@ -16,6 +18,7 @@ header {
     align-items: center;
     box-sizing: border-box;
     padding: 10px;
+    margin: 0;
 }
 
 .division li {
@@ -56,6 +59,13 @@ header {
     border: none;
 
 }
+.caja2 {
+    width: 25px;
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    position: fixed;
+}
 table, th, tr, td {
     border: solid black;
 }
@@ -72,9 +82,15 @@ table, th, tr, td {
     ul, li {
         font-size: 11px;
     }
+    .imagen {
+        height: 400px;
+    }
 }
 @media (max-width:600px){
     ul, li {
         font-size: 10px;
+    }
+    .imagen {
+        height: 300px;
     }
 }  
