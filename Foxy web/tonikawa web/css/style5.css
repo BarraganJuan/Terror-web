@@ -2,15 +2,34 @@ body {
     margin: 0;
 }
 
-ul, li {
-    transition: 0.3s;
-    float: left;
-    background-color: rgb(255, 0, 217);
-    padding: 1rem 6.38rem;
-    list-style: none;
-    margin: 0;
-    border: solid black;
+.imagen{
+
+    width: 100%;
 }
+.division {
+    background-color:rgb(255, 0, 217);
+    width: 100%;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.division li {
+    border: solid black;
+    transition: 0.3s;
+    padding: 10px 20px;
+    height: 100%;
+}
+
+.division li a {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
 .division :hover {
     cursor: pointer;
     background-color: rgb(146, 11, 126);

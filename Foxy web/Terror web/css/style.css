@@ -89,6 +89,21 @@ header {
 #silvio {
     margin: 0 7rem;
 }
+.caja1 {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+.caja2 {
+    width: 25px;
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    position: fixed;
+}
+
 .bajo {
     background-color: black;
     color: white;
