@@ -16,6 +16,7 @@ body {
     box-sizing: border-box;
     padding: 10px;
     margin: 0;
+    justify-content: space-between;
 }
 
 .division li {
@@ -25,6 +26,7 @@ body {
     height: 100%;
     text-align: center;
     margin: 0;
+    width: 200px;
 }
 .division li a {
     text-decoration: none;
@@ -75,7 +77,10 @@ body {
 }
 @media (max-width:770px){
     ul, li {
-        font-size: 15px;
+        font-size: 10px;
+    }
+    .division li {
+        width: 145px;
     }
    .imagen {
         height: 400px;
@@ -83,7 +88,10 @@ body {
 }
 @media (max-width:600px){
     ul, li {
-        font-size: 10px;
+        font-size: 8.5px;
+    }
+    .division li {
+        width: 110px;
     }
        .imagen {
         height: 350px;

@@ -48,6 +48,7 @@ header {
     box-sizing: border-box;
     padding: 9px;
     margin: 0;
+    justify-content: space-around;
 }
 
 .division li {
@@ -55,9 +56,10 @@ header {
     transition: 0.3s;
     padding: 10px 40px;
     height: 100%;
+    text-align: center;
 }
 
-.division li a {
+.division a {
     text-decoration: none;
     text-align: center;
     color: white;

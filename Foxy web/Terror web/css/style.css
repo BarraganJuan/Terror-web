@@ -20,6 +20,7 @@ header {
     box-sizing: border-box;
     padding: 10px;
     margin: 0;
+    justify-content: space-between;
 }
 
 .division li {
@@ -28,8 +29,10 @@ header {
     padding: 10px 20px;
     height: 100%;
     text-align: center;
+    width: 200px;
+    text-align: center;
 }
-.division li a {
+.division a li {
     text-decoration: none;
     text-align: center;
 }
@@ -118,10 +121,16 @@ header {
     ul, li {
         font-size: 15px;
     }
+    .division li {
+        width: 145px;
+    }
 }
 @media (max-width:600px){
     ul, li {
         font-size: 10px;
+    }
+    .division li {
+        width: 111px;
     }
 }
 
